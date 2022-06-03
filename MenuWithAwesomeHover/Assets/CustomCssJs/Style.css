@@ -1,0 +1,95 @@
+/************************************************************************/ /* Start Style All */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Segoe UI;
+  user-select: none;
+}
+/************************************************************************/ /* End Style All */
+
+/************************************************************************/ /* Start Style Menu With Awesome Hover */
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_menu_with_awesome_hover {
+  width: 525px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_category_one_menu_with_awesome_hover {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_category_two_menu_with_awesome_hover {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_inner_menu_with_awesome_hover {
+  width: 125px;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #1e2530;
+  color: #ababab;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 1000px;
+  outline: 4px solid #1e2530;
+  border: 4px solid gray;
+  margin: 3px;
+}
+
+@keyframes AnimateLetter {
+  0% {
+    letter-spacing: 10px;
+    opacity: 0;
+  }
+
+  100% {
+    letter-spacing: 0;
+    opacity: 1;
+  }
+}
+
+.section_inner_menu_with_awesome_hover:hover {
+  width: 130px;
+  height: 130px;
+  outline: 5px solid #f55;
+  border: 10px solid gray;
+}
+
+.section_inner_menu_with_awesome_hover:hover p {
+  animation: AnimateLetter 1s;
+}
+
+.section_inner_menu_with_awesome_hover:hover i {
+  color: #f55;
+}
+
+.section_inner_menu_with_awesome_hover i {
+  font-size: 25px;
+  margin-bottom: 10px;
+  transition: all 0.5s;
+}
+/************************************************************************/ /* End Style Menu With Awesome Hover */
